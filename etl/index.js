@@ -46,7 +46,7 @@ const cleanResult = result => (
       },
       properties: {
         id: x.id,
-        name: x.name
+        label: x.name || x.title
       }
     }))
   }
